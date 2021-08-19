@@ -1,9 +1,16 @@
 /* Base */
 
+:root {
+    --cor-bg-principal: #5f45bb;
+    --cor-bg-gradient-top: #180cac;
+    --cor-bg-gradient-botton: #5f45bb;
+    --cor-texto-principal: #fff;
+}
+
 html {
-    background-color: #5f45bb;
-    background-image: linear-gradient(to bottom right, #180cac, #d054e4);
-    color: #fff;
+    background-color: var(--cor-bg-principal);
+    background-image: linear-gradient(to bottom right, var(--cor-bg-gradient-top), var(--cor-bg-gradient-botton));
+    color: var(--cor-texto-principal);
     font-family: "karla", verdana, sans-serif;
     font-size: 16px;
     -moz-osx-moz-osx-font-smoothing: grayscale;
