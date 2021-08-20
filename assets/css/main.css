@@ -113,6 +113,18 @@ a {
     margin-top: 1.5rem;
     transform-origin: center left;
     width: 4rem;
+    animation: separator-width 1s ease-out forwards;
+}
+
+@keyframes separator-width {
+    0% {
+        width: 0;
+        margin-left: 12rem;
+    }
+    100% {
+        width: 4rem;
+        margin-right: 0%;
+    }
 }
 
 .description {
@@ -211,6 +223,14 @@ a {
     .hr {
         margin-right: auto;
         margin-left: auto;
+    }
+    @keyframes separator-width {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 4rem;
+        }
     }
     .description {
         font-size: 1.05rem;
