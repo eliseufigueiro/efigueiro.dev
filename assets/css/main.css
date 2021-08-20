@@ -44,23 +44,6 @@ a {
     transition-duration: 300ms;
 }
 
-.button {
-    background-color: #fff;
-    border-radius: 290486px;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    color: #9013fe;
-    display: inline-block;
-    font-size: 0.875rem;
-    line-height: 1;
-    padding: 1.25em 2em;
-    text-shadow: none;
-    transition-property: box-shadow, transform;
-    user-select: none;
-    vertical-align: top;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
-}
-
 .wallpaper {
     background-image: url("/assets/img/bg.jpg");
     background-position: center;
@@ -125,7 +108,7 @@ a {
     background-color: #ff470f;
     border: none;
     content: "";
-    height: 1px;
+    height: 2px;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     transform-origin: center left;
@@ -143,10 +126,10 @@ a {
 }
 
 .button {
-    background-color: #fff;
-    border-radius: 290486px;
+    border: 2px solid #ff470f;
+    border-radius: 2px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    color: #9013fe;
+    color: #fff;
     display: inline-block;
     font-size: 1rem;
     line-height: 0.875rem;
@@ -216,6 +199,30 @@ a {
     .side {
         margin-bottom: 3rem;
         width: 100%;
+    }
+    .name {
+        font-size: 2rem;
+        line-height: 1;
+        text-align: center;
+    }
+    .job {
+        text-align: center;
+    }
+    .hr {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .description {
+        font-size: 1.05rem;
+        text-align: center;
+    }
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
     }
 }
 
