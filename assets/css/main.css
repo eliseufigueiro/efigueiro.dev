@@ -203,6 +203,19 @@ a {
 
 /* Responsividade - Media Query*/
 
+@media screen and (max-width: 319px) {
+    .name {
+        font-size: 1rem;
+        line-height: 0.75;
+    }
+    .hand-icon {
+        margin-left: 10px;
+    }
+    .description {
+        font-size: 0.85rem;
+    }
+}
+
 @media screen and (max-width: 799px) {
     .content {
         flex-direction: column;
@@ -218,7 +231,7 @@ a {
         justify-content: center;
     }
     .name {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 1;
         text-align: center;
     }
@@ -233,7 +246,7 @@ a {
         margin-left: auto;
     }
     .description {
-        font-size: 1.05rem;
+        font-size: 1rem;
         text-align: center;
     }
     .contact {
