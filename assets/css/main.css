@@ -45,7 +45,7 @@ a {
 }
 
 .wallpaper {
-    background-image: url("/assets/img/bg07.jpg");
+    background-image: url("/assets/img/bg02.jpg");
     background-position: center;
     background-size: cover;
     opacity: 0.2;
@@ -217,6 +217,9 @@ a {
 }
 
 @media screen and (max-width: 799px) {
+    .wallpaper {
+        background-image: url("/assets/img/bg01.jpg");
+    }
     .content {
         flex-direction: column;
         justify-content: center;
